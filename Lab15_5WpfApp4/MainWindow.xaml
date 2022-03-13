@@ -1,0 +1,171 @@
+﻿<Window x:Class="Lab15_5WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab15_5WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FFF4E7E7" Offset="0"/>
+                <GradientStop Color="#FFE2BFBF" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <FlowDocumentReader Margin="20" MaxWidth="800" MinWidth="700"  >
+
+            <FlowDocument>
+
+                <Section FontSize="26">
+                    <Paragraph>
+                        <Bold>Какие существуют виды и сорта тюльпанов?</Bold>
+                    </Paragraph>
+
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Каждый цветок, выращиваемый цветоводами, тщательно отобран из всей массы цветущих растений. В число популярных культур заслуженно попадает и тюльпан. В свою очередь, его принято делить на много разновидностей, о которых надо знать каждому цветоводу.
+
+                        <Floater Width="750"   HorizontalAlignment="Center">
+                            <BlockUIContainer>
+                                <Image Source="DATA15/15.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="23">
+                    <Paragraph>
+
+                        <Italic>Раннецветущие</Italic>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Наследием всех этих «лихорадок» явилось появление многих разновидностей тюльпанов. Немало из них, впрочем, были созданы в более позднее время. И заслуженное внимание вызывают цветущие рано растения. Раньше всего появляющиеся цветы не могут похвастаться особенно крупными цветками. Да и разнообразие окрасок у них не слишком велико.
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.1.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+                <Section FontSize="18">
+                    <Paragraph>
+                        Все же рано появляющиеся тюльпаны имеют необыкновенное очарование. Столь быстрое формирование в начале весны является буквально чудом. Цветение происходит в марте, частично захватывает апрель и первые дни мая. Точные сроки цветения определяются конкретным сортом и погодной ситуацией. Наибольшее разнообразие ранних тюльпанов характерно для простых и махровых цветков.
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.2.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+
+                <Section FontSize="23">
+                    <Paragraph>
+                        <Italic>Среднецветущие</Italic>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        В этот разряд причисляются тюльпаны, цветение которых приходится на последние дни апреля и на май. Обычно они имеют:
+                     цветки большого размера; цветоносы до 0,5 м; листья, окрашенные в смесь сизой и зеленой красок.
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.3.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Среднецветущая группа явно разнообразнее, чем ранний разряд. Она считается более красивой и ценится за сочетание двух разных тональностей. Принято делить эту категорию на две подгруппы. К тюльпанам «Триумф» относят растения среднего роста, цветоносы которых обычно достигают 0,5 м (в отдельных случаях 0,7 м).
+                        Цветы формируют похожие на бокалы цветки большой величины. Стебли триумфального тюльпана отличаются прочностью.
+
+
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.4.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Такие растения могут цвести практически до половины июля. Основная масса тюльпанов отцветает к этому моменту, и уже начинается формирование цветов пиона и ириса. В этой ситуации поздний тюльпан может стать драгоценным декоративным акцентом. Позднецветущие тюльпаны традиционно подразделяют на 7 групп. Они сильно различаются между собой, но в любом случае смотрятся эффектно.
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.5.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+
+                <Section FontSize="23">
+                    <Paragraph>
+
+                        <Italic>Ботанические</Italic>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Группа ботанических тюльпанов введена в 1969 году. В нее относят не только дикорастущие разновидности. В основном сюда входят растения различной высоты (преимущественно карликовой или средней), находящие применение в открытой земле. Термин «ботанические тюльпаны» принят в торговой сфере – официально, в биологической литературе утверждено определение «прочие виды». В эту группу не входят тюльпаны:
+                      Кауфмана; Геснера; Грейга; Фостера (а также все их гибридные версии).
+
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.6.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        В этот разряд попадает 25 из 144 разновидностей, которым присвоена премия Британского садоводческого общества. Но минусом является незначительная популярность. Выбрать подходящий ботанический тип сложно. Зато их активно используют селекционеры (и в выведении новых разновидностей, и в процессе гибридизации).
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.7.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+
+                <Section FontSize="18">
+                    <Paragraph>
+                        Тюльпаны могут выглядеть просто потрясающе. Тут показано, как красиво смотрится объемный «ковер» из белых, желтых и розовых цветов.
+                        <Floater Width="750" HorizontalAlignment="Center">
+                            <BlockUIContainer >
+                                <Image Source="DATA15/15.8.jpg"/>
+                            </BlockUIContainer>
+                        </Floater>
+
+                    </Paragraph>
+
+                </Section>
+
+
+            </FlowDocument>
+        </FlowDocumentReader>
+
+
+    </Grid>
+</Window>
